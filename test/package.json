@@ -5,7 +5,9 @@
   "description": "",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:numbers": "pest test.js",
+    "test:compiler": "pest compiler-test.js",
+    "test:iteration": "pest iteration-test.js"
   },
   "author": "jsasz <justenrickert@gmail.com>",
   "license": "MIT",

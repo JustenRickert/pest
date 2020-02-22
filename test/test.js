@@ -24,13 +24,9 @@ suite("suite", () => {
     Math.atan2(Math.PI ** 2);
   });
 
-  bench("all three", () => {
-    allThree();
-  });
+  bench("all three", allThree);
 
-  bench("linear", () => {
-    average(range());
-  });
+  bench("linear", average(range()));
 });
 
 bench("addition", () => {
