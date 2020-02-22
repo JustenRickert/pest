@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "@jsasz/pest",
+  "bin": {
+    "pest": "./lib/cli.js"
+  },
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustenRickert/pest.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jsasz <justenrickert@gmail.com>",
+  "license": "MIT"
+}
