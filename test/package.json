@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jsasz <justenrickert@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@jsasz/pest": "0.0.1",
+    "typescript": "^3.8.2"
+  }
+}
